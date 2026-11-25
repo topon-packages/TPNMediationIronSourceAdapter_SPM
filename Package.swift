@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git", exact: "9.3.0")
+        .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git", exact: "9.8.0")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkIronSourceAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkIronSourceAdapter/9.3.0.0.2.9/AnyThinkIronSourceAdapter-9.3.0.0.2.9.zip",
-            checksum: "5247d85e036382baf1780c107138f5d00ab1a8f53c102515a2fea47de8413b9b"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkIronSourceAdapter/90800.2.10/AnyThinkIronSourceAdapter-90800.2.10.zip",
+            checksum: "57b34fbe6936af72b61de75d320597ebe9e04f568791556f70443aeb4cf03249"
         ),
         .target(
             name: "TPNMediationIronSourceAdapterTarget",
